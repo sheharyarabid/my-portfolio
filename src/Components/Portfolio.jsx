@@ -38,8 +38,7 @@ const projectList = [
   },
   {
     title: "Keen Dashboard",
-    description:
-      "A dashboard for Keen.io made with HTML/CSS, Bootstrap and slight touch of JS.",
+    description: "A dashboard for Keen.io made with HTML/CSS, Bootstrap and slight touch of JS.",
     url: "https://github.com/sheharyarabid/Keen-Dashboard",
   },
   {
@@ -64,7 +63,12 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{
+              height: "90%",
+              width: "100%",
+              objectFit: "cover",
+              animation: "1s ease-out 0s 1 slideIn",
+            }}
             alt={imageAltText}
           />
         </div>
