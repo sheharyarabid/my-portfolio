@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/portfolio1.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,16 +31,16 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Bubble Game 🎉",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "A simple bubble game made with JavaScript. The game is to click on the bubbles as they appear and try to get as many points as you can before the time runs out.",
+    url: "https://github.com/sheharyarabid/bubble-game",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Keen Dashboard",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "A dashboard for Keen.io made with HTML/CSS, Bootstrap and slight touch of JS.",
+    url: "https://github.com/sheharyarabid/Keen-Dashboard",
   },
   {
     title: "My Resume Site",
